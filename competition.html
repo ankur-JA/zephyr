@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/LOGO.png" type="image/icon type">
+    <title>Competition Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url("/images/Background.png");
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: cover;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar .left {
+            padding: 10px 20px;
+        }
+        .desktop-logo {
+            margin: 0 0 0 1rem;
+            height: 12vh;
+        }
+        .navbar .right{
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            margin: 0 1.5rem 0 0;
+        }
+
+        .page-tag .tag{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 20px 0 0 0;
+            font-size: 60px;
+        }
+
+        .content .left {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            float: left;
+        }
+        .Competition-box {
+            height: 370px;
+            margin: 50px 0 0 1rem;
+            align-self: center;
+        }
+        .content .right {
+            float: right;
+            width: 48%;
+        }
+        .content .right .box {
+            margin: 0 15px 0 0;
+            display: flex;
+            float: right;
+            color: white;
+            font-size: 22.5px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .social {
+            display: flex;
+            align-items: center;
+        }
+        .fb {
+            margin: 0.5rem 0 0 0;
+            padding: 5px;
+            height: 5vh;
+        }
+        .insta {
+            margin: 0.5rem 0 0 0;
+            padding: 5px;
+            height: 5vh;
+        }
+  .navbar a {
+            border: 2px solid white;
+            border-radius: 25px;
+            color: azure;
+            text-decoration: none;
+            background-image: linear-gradient(to right, rgb(108, 0, 155), rgba(0,0,151,0.52));
+            padding: 7px 15px;
+            margin: 0 2rem;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <!-- Zephyr logo -->
+        <div class="left">
+            <img class="desktop-logo" src="images/LOGO.png" alt="Zephyr logo">
+        </div>
+        <!-- menu buttons -->
+        <div class="right">
+          <a href="/zephyr/home">HOME</a>
+          <a href="/zephyr/about">ABOUT</a>
+          <a href="/zephyr/cahomepage">CA HOMEPAGE</a>
+          <a href="/zephyr/faq">FAQ</a>
+        </div>
+    </div>
+        <!-- competition -->
+    <div class="page-tag">
+        <p class="tag">COMPETITION</p>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <!-- Competition box right one -->
+            <div class="left">
+                <div>
+                    <img class="Competition-box" src="images/Competitions box.png" alt="find yourself">
+                    <div>
+                        <p>SURGICAL STRIKE2.0</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- competition box left one -->
+            <div class="right">
+                <div>
+                    <img class="Competition-box" src="images/Competitions box.png" alt="find yourself">
+                </div>
+                <!-- social links -->
+                <div class="box">
+                    <p>Connect with us</p>
+                    <div class="social">
+                        <a href="http://instagram.com/zephyr_iitbombay"><img class="insta" src="images/Ig.png" alt="Instagram"></a>
+                        <a href="http://www.facebook.com/profile.php?id=100087378432525"><img class="fb" src="images/Fb.png" alt="Facebook"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</body>
+</html>
